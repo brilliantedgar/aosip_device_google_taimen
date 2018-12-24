@@ -39,3 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/googleapps/googleapps.mk)
+
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2880
